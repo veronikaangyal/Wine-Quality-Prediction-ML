@@ -27,7 +27,7 @@ Using a Regressor instead of a Classifier to find a numerical value on a scale o
 ## Repository Contents
 * **`Wine_Quality_Analysis.ipynb`** - The full Google Colab notebook containing all experiments and visualizations.
 * **`Wine_Quality_Report.pdf`** - The detailed academic report (IEEE Format).
-* **`Project_Presentation.pdf`** - The slides used for the project presentation and exam defense.
+* **`Project_Presentation.pdf`** - The slides used for the project presentation.
 * **`winequality-white.csv`** - The raw dataset sourced from the UCI Machine Learning Repository.
 
 *Developed for Machine Learning and Data Mining course at the University of Bologna.*
