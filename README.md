@@ -8,20 +8,20 @@ The goal of this study is to move away from subjective human wine tasting and to
 ### 1. Binary Classification (Good vs. Bad)
 The most accurate model. 
 This version simplifies the target into two categories Good or Bad.
-- **Accuracy Score:** `87.96%`
+- **Accuracy Score:** `88.57%`
 - **Categories:** Bad (Quality $<$ 7), Good (Quality $\ge$ 7).
 
 ### 2. Multi-Class Classification (Bad, Average, Good)
 A more granular approach.
 This model categorizes wine into three tiers to better reflect the dataset's distribution.
-- **Accuracy Score:** `68,88%` 
+- **Accuracy Score:** `71,12%` 
 - **Categories:** Bad (3-5), Average (6), Good (7-9).
 
 ### 3. Regression Analysis (Predicting Scores)
 Predicting the exact sensory score. 
 Using a Regressor instead of a Classifier to find a numerical value on a scale of 3–9.
-- **Mean Squared Error (MSE):** `0.405`
-- **R2 Score:** `0.478`
+- **Mean Squared Error (MSE):** `0.399`
+- **R2 Score:** `0.486`
 - **Meaning:** On average, the model's predictions are within `0.63` points of the actual score.
 
 ## Repository Contents
